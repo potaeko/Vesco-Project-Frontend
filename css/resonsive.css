@@ -1,0 +1,204 @@
+
+
+/* Using grid system from Bootstrap  320, 480, 767,768,992,1200*/
+
+/*=============== Bootstrap 3 Media Queries ====================*/
+
+/*===============================================================
+
+            Large Devices 1200px (Desktops & Laptops)
+
+================================================================*/
+
+@media (min-width:1200px) {
+    /*Everything is Good To Go */
+}
+
+/*===============================================================
+
+     Medium Devices 992px (Landscape Tablets & Medium Desktops) 
+
+================================================================*/
+
+@media (min-width:992px) and (max-width: 1199px){
+    /* #1 Customize @grid-float-breakpoint  to 1199px in Bootstrap website and replace the file  */
+    /* #2 Added background black transparent for toggle navbar */
+    
+    .navbar {
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    /* #3 float menu to left */
+    .navbar-nav {
+        float: left;
+    }
+    /* #4 delete padding */
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+}
+
+/*===============================================================
+
+      Small Devices 768px (Portrait Tablets & Small Desktops) 
+
+================================================================*/
+
+@media (min-width:768px) and (max-width: 991px){
+     /* #1 Added background black transparent for toggle navbar */
+    .navbar {
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    /* #2 float menu to left */
+    .navbar-nav {
+        float: left;
+    }
+    /* #3 delete padding */
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+
+    /* #4 About section - remove diagoanl border */
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    /* #5 adjust width and height */
+    #about-content-box{
+        width:100%;
+        height: 350px;
+    }
+
+    /* #6 remove and add space in stats items */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* #7 center copyright */
+    #footer-copyrights {
+        text-align: center;
+    }
+    
+}
+
+/*===============================================================
+
+ Extra Small Devices <768px (Landscape Phones & Portrait Tablets) 
+
+
+================================================================*/
+
+@media (max-width:767px){
+    /* #1 Added background black transparent for toggle navbar */
+    .navbar {
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .vesco-nav-wrapper {
+        padding: 0;
+    }
+    /* #2 Changing Heading font size */
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    /* #3 decrease button size */
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+     /* #4 About section - remove diagoanl border */
+     #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box{
+        width:100%;
+        height: 350px;
+    }
+    /* #5 Work section - full width images and modified in custom.js*/
+    .img-wrapper{
+        min-width: 100%
+    }
+    /* #6  Testimonials section - decrease space blockquote*/
+    .testimonial blockquote{
+        padding: 6px 50px;
+    }
+    /* #7 adjust left & right quotation mark blockquote */
+    .testimonial blockquote:before{
+        left: 10px;
+    }
+    .testimonial blockquote:after{
+        right: 10px;
+    }
+    /* #8 adjust font size blockquote*/
+    .testimonial blockquote p{
+        font-size: 14px;
+    }
+    /* #9 remove and add space in stats items */
+    .stats-item {
+        padding: 20px 0;
+    }
+    /* #10 add hidden-xs class and center copyright */
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+
+/*===============================================================
+
+           Extra Small Devices <768px (Portrait Phones & Smaller devices) 
+
+================================================================*/
+
+@media (max-width:480px){
+    /* Everything Is Good To Go */
+}
+
+
+/*===============================================================
+
+        Extra Small Devices <768px (Smaller devices) 
+
+================================================================*/
+
+@media (max-width:320px){
+    /* #1 Services - reduce item size */
+    .service-item-icon i{
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+    /* #2 Services - reduce Title item size */
+    .service-item-title h3 {
+        font-size: 17px;
+    }
+    /* #3 About  - increase space between content box and image*/
+    #about-content-box {
+        margin-top: 40px;
+    }
+    /* #4 Testimonials Section  */
+
+    /* reduce image size */
+    .testimonial img {
+        max-width: 80px;
+    }
+    /* decrease padding  */
+    .testimonial blockquote{
+        padding: 6px 30px;
+    }
+    /* adjust left & right quotation mark blockquote */
+    .testimonial blockquote:before{
+        left: 7px;
+    }
+    .testimonial blockquote:after{
+        right: 7px;
+    }
+}
