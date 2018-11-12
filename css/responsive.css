@@ -160,6 +160,10 @@
 
 @media (max-width:480px){
     /* Everything Is Good To Go */
+    #home-cover{
+        height: 100%;
+        background-image: url("../img/home/bg-home.jpg");
+    }
 }
 
 
@@ -170,6 +174,10 @@
 ================================================================*/
 
 @media (max-width:320px){
+    #home-cover{
+        height: 100%;
+        background-image: url("../img/home/bg-home.jpg");
+    }
     /* #1 Services - reduce item size */
     .service-item-icon i{
         width: 58px;
