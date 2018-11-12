@@ -21,6 +21,10 @@
 ================================================================*/
 
 @media (min-width:992px) and (max-width: 1199px){
+    #home-cover{
+        height: 100%;
+        background-image: url("../img/home/bg-home-smaller.jpg");
+    }
     /* #1 Customize @grid-float-breakpoint  to 1199px in Bootstrap website and replace the file  */
     /* #2 Added background black transparent for toggle navbar */
     
@@ -202,4 +206,3 @@
         right: 7px;
     }
 }
-
