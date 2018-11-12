@@ -39,7 +39,6 @@ body {
 #home-cover{
     height: 100%;
     background-image: url("../img/bg-home.jpg");
-
 }
 
 #home-content-box{
@@ -112,22 +111,22 @@ background-repeat: no-repeat;
                     ANIMATE
 ================================================*/
 #home-cover, #home-heading, #home-btn{
-    -webkit-animation-duration: .5s;
+   
             animation-duration: .5s;
 }
 
 #home-cover{
-    -webkit-animation-delay: .1s;
+    
             animation-delay: .1s;
 }
 
 #home-heading{
-    -webkit-animation-delay: .5s;
+    
             animation-delay: .5s;
 }
 
 #home-btn {
-    -webkit-animation-delay: 1s;
+   
             animation-delay: 1s;
 }
 /*==============================================
