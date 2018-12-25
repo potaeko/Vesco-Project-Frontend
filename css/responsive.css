@@ -166,7 +166,7 @@
         background-image: url("../img/home/bg-home-smaller.jpg");
     }
     #about-bg-diagonal{
-        background:inherit no-repeat;
+        background:initial no-repeat;
         background-image: url("../img/bg-about-small.jpg");
     }
 }
@@ -185,7 +185,7 @@
         background-image: url("../img/home/bg-home-smaller.jpg");
     }
     #about-bg-diagonal{
-        background:inherit no-repeat;
+        background:initial no-repeat;
         background-image: url("../img/bg-about-small.jpg");
     }
     /* #1 Services - reduce item size */
