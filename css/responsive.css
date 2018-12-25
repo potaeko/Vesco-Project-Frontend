@@ -160,6 +160,14 @@
 
 @media (max-width:480px){
     /* Everything Is Good To Go */
+    #home-cover{
+        background: initial;
+        background-image: url("../img/home/bg-home-smaller.jpg");
+    }
+    #about-bg-diagonal{
+        background:initial;
+        background-image: url("../img/bg-about-small.jpg");
+    }
 }
 
 
