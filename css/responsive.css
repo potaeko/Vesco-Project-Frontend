@@ -171,13 +171,11 @@
 
 @media (max-width:320px){
     #home-cover{
-        background-repeat: no-repeat;
         background: initial;
         background-image: url("../img/home/bg-home-smaller.jpg");
     }
     #about-bg-diagonal{
         background:initial;
-        background-repeat: no-repeat;
         background-image: url("../img/bg-about-small.jpg");
     }
     /* #1 Services - reduce item size */
