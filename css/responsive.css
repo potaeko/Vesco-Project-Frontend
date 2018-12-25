@@ -171,7 +171,7 @@
         background:initial;
         background-repeat: no-repeat;
         background-position: center;
-        background-image: url("../img/bg-about-small.jpg");
+        background-image: url("../img/bg-about.jpg");
     }
     #home{
         width:100%;
@@ -198,7 +198,7 @@
         background:initial;
         background-repeat: no-repeat;
         background-position: center;
-        background-image: url("../img/bg-about-small.jpg");
+        background-image: url("../img/bg-about.jpg");
     }
     /* #1 Services - reduce item size */
     .service-item-icon i{
