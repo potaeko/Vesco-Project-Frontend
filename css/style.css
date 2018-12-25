@@ -64,7 +64,7 @@ body {
                     PARALLAX (Generic)
 ================================================*/
 .bg-parallax{
-background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

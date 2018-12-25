@@ -160,15 +160,6 @@
 
 @media (max-width:480px){
     /* Everything Is Good To Go */
-    #home-cover{
-        height: 100%;
-        background: initial no-repeat;
-        background-image: url("../img/home/bg-home-smaller.jpg");
-    }
-    #about-bg-diagonal{
-        background:initial no-repeat;
-        background-image: url("../img/bg-about-small.jpg");
-    }
 }
 
 
@@ -181,11 +172,16 @@
 @media (max-width:320px){
     #home-cover{
         height: 100%;
-        background: initial no-repeat;
+        background: initial;
         background-image: url("../img/home/bg-home-smaller.jpg");
     }
     #about-bg-diagonal{
-        background:initial no-repeat;
+        width: 100%;
+        float: right;
+        background:initial;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
         background-image: url("../img/bg-about-small.jpg");
     }
     /* #1 Services - reduce item size */
