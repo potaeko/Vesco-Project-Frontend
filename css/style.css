@@ -38,7 +38,6 @@ body {
 
 #home-cover{
     height: 100%;
-    /* background: initial; */
     background-image: url("../img/home/bg-home-smaller.jpg");
 }
 
@@ -193,7 +192,6 @@ background-repeat: no-repeat;
     width: 60%;
     height: 700px;
     float: right;
-    
     background-image: url("../img/bg-about.jpg");
     border-left: 200px solid white;
     border-top: 700px solid transparent
@@ -298,7 +296,6 @@ h4.team-member-designation{
                    Testimonials
 ================================================*/
 #testimonials-cover {
-    background: initial;
     background-image: url("../img/bg-testimonials.jpg")
 }
 #testimonials .content-box{
@@ -405,7 +402,6 @@ ul.pricing-spec li p{
                    STATS
 ================================================*/
 #stats-cover{
-    background: initial;
     background-image: url("../img/bg-stats.jpg");
 }
 #stats .content-box{

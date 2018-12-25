@@ -170,10 +170,15 @@
 ================================================================*/
 
 @media (max-width:320px){
+    #home-cover{
+        height: 100%;
+        background: initial;
+        background-image: url("../img/home/bg-home-smaller.jpg");
+    }
     #about-bg-diagonal{
-   
-    float: right;
-    background-image: url("../img/bg-about.jpg");}
+    width: 100%;
+    background-image: url("../img/bg-about.jpg");
+}
     /* #1 Services - reduce item size */
     .service-item-icon i{
         width: 58px;
