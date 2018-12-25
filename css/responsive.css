@@ -165,14 +165,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
         background-image: url("../img/home/bg-home-smaller.jpg");
     }
     #about-bg-diagonal{
         background:initial;
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;
         background-image: url("../img/bg-about-small.jpg");
     }
     #home{
@@ -194,14 +192,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
         background-image: url("../img/home/bg-home-smaller.jpg");
     }
     #about-bg-diagonal{
         background:initial;
         background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;
         background-image: url("../img/bg-about-small.jpg");
     }
     /* #1 Services - reduce item size */
