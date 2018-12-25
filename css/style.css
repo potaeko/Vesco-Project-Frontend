@@ -191,7 +191,8 @@ background-repeat: no-repeat;
 ================================================*/
 #about-bg-diagonal{
     width: 60%;
-    height: 700px;
+    /* height: 700px; */
+    height: 100%;
     float: right;
     background: initial;
     background-image: url("../img/bg-about.jpg");
@@ -405,6 +406,7 @@ ul.pricing-spec li p{
                    STATS
 ================================================*/
 #stats-cover{
+    height: 100%;
     background: initial;
     background-image: url("../img/bg-stats.jpg");
 }
