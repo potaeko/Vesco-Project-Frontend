@@ -170,6 +170,10 @@
 ================================================================*/
 
 @media (max-width:320px){
+    #about-bg-diagonal{
+   
+    float: right;
+    background-image: url("../img/bg-about.jpg");}
     /* #1 Services - reduce item size */
     .service-item-icon i{
         width: 58px;
