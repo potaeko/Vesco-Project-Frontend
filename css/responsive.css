@@ -170,10 +170,6 @@
 ================================================================*/
 
 @media (max-width:320px){
-    #home-cover{
-    height: 100%;
-    background-image: url("../img/work/1.jpg");
-}
     /* #1 Services - reduce item size */
     .service-item-icon i{
         width: 58px;
